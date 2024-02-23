@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <title>Programming Survey</title>
+ </head>
+ <body>
+<h1>Favorite Programming Language?</h1>
+ </body>
+ </html>
+<form action="/form-handling-url" method="post">
+    <fieldset>
+        <legend>add user</legend>
+
+        <div>
+            <label for="firstName">First name</label>
+            <input type="text" id="lastName" name="last_name">
+        </div>
+
+        <div>
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" name="last_name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email_address">
+        </div>
+
+        <div>
+            <label for="role">Role</label>
+            <select id="role" name="user_role_name">
+                <option value="student">Student</option>
+                <option value="teacher">Teacher</option>
+                <option value="guest">Guest</option>
+            </select>
+        </div>
+
+        <div>
+            <p>Choose your favorite programming language:</p>
+        </div>
+
+        <div>
+            <label for="language1">HTML</label>
+            <input type="radio" id="language1" name="language" value="html">
+        </div>
+
+        <div>
+            <label for="language2">CSS</label>
+            <input type="radio" id="language2" name="language" value="css">
+        </div>
+
+        <div>
+            <label for="language3">JavaScript</label>
+            <input type="radio" id="language3" name="language" value="javascript">
+        </div>
+
+        <br/>
+
+        <div>
+            <label for="comments">Comments</label>
+            <div>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+        </div>
+
+        <div>
+            <label for="expiration">Expiration</label>
+            <input type="date" id="expiration" name="expiration">
+        </div>
+
+        <div>
+            <label for="signNews">Sign up for newsletter</label>
+            <input type="checkbox" id="sign" value="newsletter">
+        </div>
+
+        <div>
+            <label for="termsCond">Agree to terms and conditions</label>
+            <input type="checkbox" id="terms" value="conditions">
+        </div>
+
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+
+    </fieldset>
